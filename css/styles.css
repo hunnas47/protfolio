@@ -143,3 +143,63 @@ p {
    border-radius: 20px;
    text-decoration: none;
 }
+@media (max-width: 640px) {
+  .mountain-image {
+    width: 100%;
+    height: auto;
+  }
+  .top-cloud {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    top: 450px;
+      right: 315px;
+  }
+  h2 {
+    font-size: 2.3rem;
+  }
+  hr {
+    border-style: dotted none none;
+    border-color: #EAF6F6;
+    border-width: 6px;
+    width: 10%;
+    padding-bottom: 40px;
+  }
+  .para {
+    font-size: 70%;
+  }
+
+
+  .middle-container {
+    width: 100%;
+    height: auto;
+
+  }
+  .avatar-image {
+    width: 30%;
+    height: auto;
+  }
+  .intro-para {
+    font-size: 70%;
+    padding: 10px 0 25px 0;
+  }
+  .skill-row {
+    width: 80%;
+    margin: 50px auto 25px auto;
+  }
+  .contact-para {
+    font-size: 70%
+  }
+  .contact-me {
+    padding-bottom: 30px;
+  }
+  .footer-link {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+}
